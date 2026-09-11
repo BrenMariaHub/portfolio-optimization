@@ -78,13 +78,19 @@ Consumo básico (XLP) se agrupa con KO y PG en el perfil defensivo esperado. Per
 
 Reemplazar los estimadores históricos por shrinkage —Ledoit-Wolf para la covarianza— o incorporar vistas vía Black-Litterman, y evaluar la estabilidad de los pesos con una ventana rodante en lugar de una sola optimización sobre toda la muestra. La pregunta interesante no es cuál es la cartera óptima hoy, sino cuánto cambia esa cartera cuando cambia la ventana.
 
-## Estructura
+## Contenido
+
+**Para leer** (documento con gráficos, sin ejecutar nada):
+- [Optimización de portafolios M/V y Risk Parity](reports/02_optimizacion_portafolios_mv_risk_parity.md) — análisis principal
+- [Retorno acumulado de activos globales](reports/01_retornos_acumulados_activos_globales.md) — análisis complementario
+
+**Para ejecutar:**
+- [`notebooks/`](notebooks/) — los notebooks originales
 
 ```
-portfolio-optimization-mv/
-├── notebooks/
-│   ├── 01_retornos_acumulados_activos_globales.ipynb
-│   └── 02_optimizacion_portafolios_mv_risk_parity.ipynb
+portfolio-optimization/
+├── notebooks/      código ejecutable
+├── reports/        versión legible de cada notebook
 ├── outputs/figures/
 └── requirements.txt
 ```
