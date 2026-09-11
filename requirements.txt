@@ -1,0 +1,7 @@
+pandas
+numpy
+yfinance
+riskfolio-lib
+matplotlib
+seaborn
+plotly
